@@ -1,0 +1,8 @@
+  scrape_configs:
+    - job_name: 'template'
+      scheme: https
+      tls_config:
+        insecure_skip_verify: true
+      scrape_interval: 5s
+      static_configs:
+        - targets: ['host.docker.internal:7019']
