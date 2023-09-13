@@ -1,10 +1,10 @@
-using ExampleProject.Application.Common;
-using ExampleProject.Application.ExampleDomain.Dtos;
-using ExampleProject.Application.ExampleDomain.Queries;
-using ExampleProject.Application.ExampleDomain.Requests;
-using ExampleProject.Domain.ExampleDomain.Entities;
+using PayGate.Application.Common;
+using PayGate.Application.ExampleDomain.Dtos;
+using PayGate.Application.ExampleDomain.Queries;
+using PayGate.Application.ExampleDomain.Requests;
+using PayGate.Domain.ExampleDomain.Entities;
 
-namespace ExampleProject.Application.ExampleDomain.Services;
+namespace PayGate.Application.ExampleDomain.Services;
 
 public interface IExampleDomainService
 {

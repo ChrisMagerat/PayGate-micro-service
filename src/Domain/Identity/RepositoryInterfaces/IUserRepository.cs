@@ -1,7 +1,7 @@
 using System.Linq.Expressions;
-using ExampleProject.Domain.Identity.IdentityUser;
+using PayGate.Domain.Identity.IdentityUser;
 
-namespace ExampleProject.Domain.Identity.RepositoryInterfaces;
+namespace PayGate.Domain.Identity.RepositoryInterfaces;
 
 public interface IUserRepository
 {

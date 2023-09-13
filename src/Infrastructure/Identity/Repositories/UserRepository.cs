@@ -1,11 +1,11 @@
 using System.Linq.Expressions;
-using ExampleProject.Application.Common.Exceptions;
-using ExampleProject.Domain.Identity.RepositoryInterfaces;
-using ExampleProject.Domain.Identity.IdentityUser;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using PayGate.Application.Common.Exceptions;
+using PayGate.Domain.Identity.IdentityUser;
+using PayGate.Domain.Identity.RepositoryInterfaces;
 
-namespace ExampleProject.Infrastructure.Identity.Repositories;
+namespace PayGate.Infrastructure.Identity.Repositories;
 
 public class UserRepository : IUserRepository
 {

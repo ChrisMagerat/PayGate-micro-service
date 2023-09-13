@@ -1,6 +1,6 @@
-using ExampleProject.Domain.ValueObjects;
+using PayGate.Domain.ValueObjects;
 
-namespace ExampleProject.Application.Identity.Dtos;
+namespace PayGate.Application.Identity.Dtos;
 
 public class CurrentUserDto
 {

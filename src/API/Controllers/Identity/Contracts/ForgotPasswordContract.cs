@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace ExampleProject.API.Controllers.Identity.Contracts;
+namespace PayGate.API.Controllers.Identity.Contracts;
 
 public class ForgotPasswordContract
 {

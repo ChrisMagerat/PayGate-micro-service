@@ -1,6 +1,6 @@
-using ExampleProject.Infrastructure.Configuration;
+using PayGate.Infrastructure.Configuration;
 
-namespace ExampleProject.Infrastructure.Common;
+namespace PayGate.Infrastructure.Common;
 
 public class AppSettings
 {

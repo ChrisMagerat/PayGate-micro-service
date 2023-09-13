@@ -1,4 +1,4 @@
-namespace ExampleProject.Infrastructure.Configuration.Common;
+namespace PayGate.Application.Identity.Configuration;
 
 public class BaseUrlsConfiguration
 {

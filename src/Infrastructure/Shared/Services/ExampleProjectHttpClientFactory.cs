@@ -3,7 +3,7 @@ using Flurl.Http.Configuration;
 using Polly;
 using Polly.Contrib.WaitAndRetry;
 
-namespace ExampleProject.Infrastructure.Shared.Services;
+namespace PayGate.Infrastructure.Shared.Services;
 
 public class RetryHandler : DelegatingHandler
 {

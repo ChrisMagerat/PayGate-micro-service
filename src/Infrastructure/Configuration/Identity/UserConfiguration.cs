@@ -1,8 +1,8 @@
-using ExampleProject.Domain.Identity.IdentityUser;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using PayGate.Domain.Identity.IdentityUser;
 
-namespace ExampleProject.Infrastructure.Configuration.Identity;
+namespace PayGate.Infrastructure.Configuration.Identity;
 
 public class UserConfiguration : IEntityTypeConfiguration<User>
 {

@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace ExampleProject.Domain.Common.Rules;
+namespace PayGate.Domain.Common.Rules;
 
 [Serializable]
 public class BusinessRuleValidationException : Exception

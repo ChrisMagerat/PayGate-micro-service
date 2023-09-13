@@ -1,6 +1,6 @@
-using ExampleProject.Domain.Shared;
+using PayGate.Domain.Shared;
 
-namespace ExampleProject.API.Controllers.Shared;
+namespace PayGate.API.Controllers.Shared;
 
 public static class FileExtensions
 {

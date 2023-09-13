@@ -1,7 +1,7 @@
-using ExampleProject.Application.Shared.Services;
 using Flurl;
+using PayGate.Application.Shared.Services;
 
-namespace ExampleProject.Infrastructure.Shared.Services;
+namespace PayGate.Infrastructure.Shared.Services;
 
 public class LinkGeneratorService: ILinkGeneratorService
 {

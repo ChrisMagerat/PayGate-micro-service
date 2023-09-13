@@ -1,14 +1,12 @@
-using ExampleProject.Application.Common;
-using ExampleProject.Application.ExampleDomain.Dtos;
-using ExampleProject.Application.Shared.Contracts.Mediator;
-using ExampleProject.Application.Shared.Contracts.Mediator.Implementations;
-using ExampleProject.Application.Shared.Services;
-using ExampleProject.Domain.Common;
-using ExampleProject.Domain.ExampleDomain.Entities;
-using ExampleProject.Domain.ExampleDomain.RepositoryInterfaces;
 using Microsoft.Extensions.Logging;
+using PayGate.Application.Common;
+using PayGate.Application.ExampleDomain.Dtos;
+using PayGate.Application.Shared.Contracts.Mediator;
+using PayGate.Application.Shared.Contracts.Mediator.Implementations;
+using PayGate.Domain.Common;
+using PayGate.Domain.ExampleDomain.RepositoryInterfaces;
 
-namespace ExampleProject.Application.ExampleDomain.Queries;
+namespace PayGate.Application.ExampleDomain.Queries;
 
 public class ExampleEntityFilesQuery : QueryBase<PaginatedList<ExampleEntityFileDto>>
 {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/API/API.csproj": {}
+    "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/API/API.csproj": {}
   },
   "projects": {
-    "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/API/API.csproj": {
+    "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/API/API.csproj",
+        "projectUniqueName": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/API/API.csproj",
         "projectName": "API",
-        "projectPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/API/API.csproj",
+        "projectPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/API/API.csproj",
         "packagesPath": "/Users/chrismagerat/.nuget/packages/",
-        "outputPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/API/obj/",
+        "outputPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/chrismagerat/.nuget/NuGet/NuGet.Config"
@@ -27,11 +27,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Application/Application.csproj": {
-                "projectPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Application/Application.csproj"
+              "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Application/Application.csproj": {
+                "projectPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Application/Application.csproj"
               },
-              "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Infrastructure/Infrastructure.csproj"
+              "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -114,14 +114,14 @@
         }
       }
     },
-    "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Application/Application.csproj": {
+    "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Application/Application.csproj",
+        "projectUniqueName": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Application/Application.csproj",
+        "projectPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Application/Application.csproj",
         "packagesPath": "/Users/chrismagerat/.nuget/packages/",
-        "outputPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Application/obj/",
+        "outputPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/chrismagerat/.nuget/NuGet/NuGet.Config"
@@ -136,8 +136,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/Domain.csproj": {
-                "projectPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/Domain.csproj"
+              "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Domain/Domain.csproj": {
+                "projectPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Domain/Domain.csproj"
               }
             }
           }
@@ -207,14 +207,14 @@
         }
       }
     },
-    "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/Domain.csproj": {
+    "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/Domain.csproj",
+        "projectUniqueName": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/Domain.csproj",
+        "projectPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Domain/Domain.csproj",
         "packagesPath": "/Users/chrismagerat/.nuget/packages/",
-        "outputPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/obj/",
+        "outputPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/chrismagerat/.nuget/NuGet/NuGet.Config"
@@ -292,14 +292,14 @@
         }
       }
     },
-    "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Infrastructure/Infrastructure.csproj": {
+    "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/Users/chrismagerat/.nuget/packages/",
-        "outputPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Infrastructure/obj/",
+        "outputPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/chrismagerat/.nuget/NuGet/NuGet.Config"
@@ -314,8 +314,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Application/Application.csproj": {
-                "projectPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Application/Application.csproj"
+              "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Application/Application.csproj": {
+                "projectPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Application/Application.csproj"
               }
             }
           }

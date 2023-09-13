@@ -1,9 +1,9 @@
-using ExampleProject.Application.Shared.Contracts.Mediator;
-using ExampleProject.Application.Shared.Contracts.Mediator.Implementations;
-using ExampleProject.Domain.ExampleDomain.RepositoryInterfaces;
 using Microsoft.Extensions.Logging;
+using PayGate.Application.Shared.Contracts.Mediator;
+using PayGate.Application.Shared.Contracts.Mediator.Implementations;
+using PayGate.Domain.ExampleDomain.RepositoryInterfaces;
 
-namespace ExampleProject.Application.ExampleDomain.Commands;
+namespace PayGate.Application.ExampleDomain.Commands;
 
 public class DeleteExampleEntityFileCommand : CommandBase
 {

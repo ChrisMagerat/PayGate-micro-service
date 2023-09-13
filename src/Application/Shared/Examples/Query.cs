@@ -1,10 +1,10 @@
-using ExampleProject.Application.Shared.Contracts.Mediator;
-using ExampleProject.Application.Shared.Contracts.Mediator.Implementations;
-using ExampleProject.Application.Shared.Contracts.Validator;
 using FluentValidation;
 using Microsoft.Extensions.Logging;
+using PayGate.Application.Shared.Contracts.Mediator;
+using PayGate.Application.Shared.Contracts.Mediator.Implementations;
+using PayGate.Application.Shared.Contracts.Validator;
 
-namespace ExampleProject.Application.Shared.Examples;
+namespace PayGate.Application.Shared.Examples;
 
 public class Query: QueryBase<QueryResult>
 {

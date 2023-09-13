@@ -1,7 +1,7 @@
 using Quartz.Logging;
 using Serilog;
 
-namespace ExampleProject.Infrastructure.Configuration.Quartz;
+namespace PayGate.Infrastructure.Configuration.Quartz;
 
 public class SerilogLogProvider : ILogProvider
 {

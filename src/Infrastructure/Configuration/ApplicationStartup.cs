@@ -1,15 +1,15 @@
 using System.Security.Cryptography;
 using Autofac;
 using Azure.Storage.Blobs;
-using ExampleProject.Infrastructure.Common;
-using ExampleProject.Infrastructure.Configuration.Domain;
-using ExampleProject.Infrastructure.Configuration.Logging;
-using ExampleProject.Infrastructure.Configuration.Quartz;
 using Flurl.Http.Configuration;
+using PayGate.Infrastructure.Common;
+using PayGate.Infrastructure.Configuration.Domain;
+using PayGate.Infrastructure.Configuration.Logging;
+using PayGate.Infrastructure.Configuration.Quartz;
 using Serilog;
 using Serilog.AspNetCore;
 
-namespace ExampleProject.Infrastructure.Configuration;
+namespace PayGate.Infrastructure.Configuration;
 
 public class ApplicationStartup
 {

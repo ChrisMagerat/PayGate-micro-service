@@ -1,7 +1,7 @@
-using ExampleProject.Infrastructure.Configuration;
 using NSwag.AspNetCore;
+using PayGate.Infrastructure.Configuration;
 
-namespace ExampleProject.API.Configuration;
+namespace PayGate.API.Configuration;
 
 public static class WebAppConfiguration
 {

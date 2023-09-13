@@ -1,14 +1,14 @@
-using ExampleProject.API.Controllers.ExampleDomain.Contracts;
-using ExampleProject.API.Controllers.Shared;
-using ExampleProject.Application.Common;
-using ExampleProject.Application.ExampleDomain.Commands;
-using ExampleProject.Application.ExampleDomain.Dtos;
-using ExampleProject.Application.ExampleDomain.Queries;
-using ExampleProject.Application.Shared.Examples;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using PayGate.API.Controllers.ExampleDomain.Contracts;
+using PayGate.API.Controllers.Shared;
+using PayGate.Application.Common;
+using PayGate.Application.ExampleDomain.Commands;
+using PayGate.Application.ExampleDomain.Dtos;
+using PayGate.Application.ExampleDomain.Queries;
+using PayGate.Application.Shared.Examples;
 
-namespace ExampleProject.API.Controllers.ExampleDomain;
+namespace PayGate.API.Controllers.ExampleDomain;
 
 [AllowAnonymous]
 public class ExampleDomainController : ApiBaseController

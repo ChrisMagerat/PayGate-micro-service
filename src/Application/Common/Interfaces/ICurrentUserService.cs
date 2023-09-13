@@ -1,4 +1,4 @@
-namespace ExampleProject.Application.Common.Interfaces;
+namespace PayGate.Application.Common.Interfaces;
 
 public interface ICurrentUserService
 {

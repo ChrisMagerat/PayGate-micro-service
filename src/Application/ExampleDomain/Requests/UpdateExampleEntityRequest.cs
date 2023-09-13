@@ -1,4 +1,4 @@
-namespace ExampleProject.Application.ExampleDomain.Requests;
+namespace PayGate.Application.ExampleDomain.Requests;
 
 public class UpdateExampleEntityRequest
 {

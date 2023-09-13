@@ -1,7 +1,7 @@
 using FluentValidation;
 using MediatR;
 
-namespace ExampleProject.Application.Shared.Contracts.Behaviors;
+namespace PayGate.Application.Shared.Contracts.Behaviors;
 
 public class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : IRequest<TResponse>
 {

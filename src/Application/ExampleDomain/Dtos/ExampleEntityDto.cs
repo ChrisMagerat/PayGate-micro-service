@@ -1,4 +1,4 @@
-namespace ExampleProject.Application.ExampleDomain.Dtos;
+namespace PayGate.Application.ExampleDomain.Dtos;
 
 public class ExampleEntityDto
 {

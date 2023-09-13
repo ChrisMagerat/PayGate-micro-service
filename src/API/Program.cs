@@ -1,8 +1,7 @@
-using ExampleProject.API.Common;
-using ExampleProject.API.Configuration;
-using ExampleProject.Application.Common;
-using ExampleProject.Infrastructure.Common;
-
+using PayGate.API.Common;
+using PayGate.API.Configuration;
+using PayGate.Application.Common;
+using PayGate.Infrastructure.Common;
 using Prometheus;
 
 

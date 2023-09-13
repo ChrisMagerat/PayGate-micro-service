@@ -1,8 +1,8 @@
 using System.Globalization;
-using ExampleProject.Domain.Common;
-using ExampleProject.Domain.Common.Rules;
+using PayGate.Domain.Common;
+using PayGate.Domain.Common.Rules;
 
-namespace ExampleProject.Domain.ValueObjects;
+namespace PayGate.Domain.ValueObjects;
 
 public class SaIdNumber : ValueObject
 {

@@ -40,7 +40,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <RootNamespace>ExampleProject.Infrastructure</RootNamespace>
+    <RootNamespace>PayGate.Infrastructure</RootNamespace>
   </PropertyGroup>
 
 </Project>

@@ -1,8 +1,8 @@
-using ExampleProject.Domain.Common;
-using ExampleProject.Infrastructure.Common.Exceptions;
-using ExampleProject.Infrastructure.Persistence;
+using PayGate.Domain.Common;
+using PayGate.Infrastructure.Common.Exceptions;
+using PayGate.Infrastructure.Persistence;
 
-namespace ExampleProject.Infrastructure.Common;
+namespace PayGate.Infrastructure.Common;
 
 public abstract class Repository: IRepository
 {

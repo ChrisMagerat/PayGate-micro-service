@@ -1,11 +1,11 @@
-using ExampleProject.Application.Common.Exceptions;
-using ExampleProject.Domain.Common.Rules;
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using PayGate.Application.Common.Exceptions;
+using PayGate.Domain.Common.Rules;
 using SendGrid.Helpers.Errors.Model;
 
-namespace ExampleProject.API.Filters;
+namespace PayGate.API.Filters;
 
 public class ApiExceptionFilterAttribute: ExceptionFilterAttribute
 {

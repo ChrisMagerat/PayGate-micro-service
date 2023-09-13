@@ -1,6 +1,6 @@
-using ExampleProject.Domain.Common;
+using PayGate.Domain.Common;
 
-namespace ExampleProject.Application.Common;
+namespace PayGate.Application.Common;
 
 public static class PaginationHelpers
 {

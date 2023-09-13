@@ -4,8 +4,8 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>ExampleProject.API</RootNamespace>
-    <UserSecretsId>ExampleProject</UserSecretsId>
+    <RootNamespace>PayGate.API</RootNamespace>
+    <UserSecretsId>PayGateUserSecrets</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

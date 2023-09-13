@@ -1,19 +1,19 @@
-using ExampleProject.API.Contracts;
-using ExampleProject.API.Configuration;
 using Azure.Storage.Blobs;
-using ExampleProject.API.Filters;
-using ExampleProject.Application.Common.Interfaces;
-using ExampleProject.Application.Shared.Services;
-using ExampleProject.Infrastructure.Common;
-using ExampleProject.Infrastructure.Configuration;
-using ExampleProject.Infrastructure.Shared.Services;
 using Flurl.Http;
 using Flurl.Http.Configuration;
 using NSwag;
+using PayGate.API.Configuration;
+using PayGate.API.Contracts;
+using PayGate.API.Filters;
+using PayGate.Application.Common.Interfaces;
+using PayGate.Application.Shared.Services;
+using PayGate.Infrastructure.Common;
+using PayGate.Infrastructure.Configuration;
+using PayGate.Infrastructure.Shared.Configuration;
+using PayGate.Infrastructure.Shared.Services;
 using Serilog;
-using ExampleProject.Infrastructure.Shared.Configuration;
 
-namespace ExampleProject.API.Common;
+namespace PayGate.API.Common;
 
 public static class DependencyInjection
 {

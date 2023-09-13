@@ -1,10 +1,10 @@
-using ExampleProject.Domain.Services.PayGateService;
-using ExampleProject.Infrastructure.Configuration;
 using Flurl.Http;
 using Flurl.Http.Configuration;
 using Microsoft.Extensions.Logging;
+using PayGate.Domain.Services.PayGateService;
+using PayGate.Infrastructure.Configuration;
 
-namespace ExampleProject.Infrastructure.Domain.Services;
+namespace PayGate.Infrastructure.Domain.Services;
 
 public class PayGateServices : IPayGateService
 {

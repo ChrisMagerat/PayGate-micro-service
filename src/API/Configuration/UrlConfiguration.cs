@@ -1,4 +1,4 @@
-namespace ExampleProject.API.Configuration;
+namespace PayGate.API.Configuration;
 
 public class UrlConfiguration
 {

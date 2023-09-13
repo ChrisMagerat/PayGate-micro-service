@@ -3,7 +3,7 @@ using System.Reflection;
 using Autofac.Core.Activators.Reflection;
 using SendGrid.Helpers.Errors.Model;
 
-namespace ExampleProject.Infrastructure.Configuration.Quartz;
+namespace PayGate.Infrastructure.Configuration.Quartz;
 
 public class AllConstructorFinder : IConstructorFinder
 {

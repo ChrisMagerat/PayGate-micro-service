@@ -921,11 +921,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/Domain.csproj",
+      "projectUniqueName": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/Domain.csproj",
+      "projectPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Domain/Domain.csproj",
       "packagesPath": "/Users/chrismagerat/.nuget/packages/",
-      "outputPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/obj/",
+      "outputPath": "/Users/chrismagerat/Desktop/micro-serivce/PayGate-micro-service/src/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/chrismagerat/.nuget/NuGet/NuGet.Config"

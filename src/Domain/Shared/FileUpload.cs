@@ -1,6 +1,6 @@
-using ExampleProject.Domain.ValueObjects;
+using PayGate.Domain.ValueObjects;
 
-namespace ExampleProject.Domain.Shared;
+namespace PayGate.Domain.Shared;
 
 public class FileUpload : FileMetadata
 {

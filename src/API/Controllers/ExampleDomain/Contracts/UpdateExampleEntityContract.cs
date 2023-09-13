@@ -1,7 +1,7 @@
-using ExampleProject.Application.ExampleDomain.Requests;
 using Microsoft.AspNetCore.Mvc;
+using PayGate.Application.ExampleDomain.Requests;
 
-namespace ExampleProject.API.Controllers.ExampleDomain.Contracts;
+namespace PayGate.API.Controllers.ExampleDomain.Contracts;
 
 public class UpdateExampleEntityContract
 {

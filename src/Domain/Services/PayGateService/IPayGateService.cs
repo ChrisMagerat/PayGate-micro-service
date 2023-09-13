@@ -1,4 +1,4 @@
-namespace ExampleProject.Domain.Services.PayGateService;
+namespace PayGate.Domain.Services.PayGateService;
 
 public interface IPayGateService
 {

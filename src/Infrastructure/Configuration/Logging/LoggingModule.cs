@@ -1,7 +1,7 @@
 using Autofac;
 using Serilog;
 
-namespace ExampleProject.Infrastructure.Configuration.Logging;
+namespace PayGate.Infrastructure.Configuration.Logging;
 
 public class LoggingModule : Autofac.Module
 {

@@ -1,8 +1,8 @@
-using ExampleProject.Domain.Common;
-using ExampleProject.Domain.Shared.Configuration;
-using ExampleProject.Infrastructure.Persistence;
+using PayGate.Domain.Common;
+using PayGate.Domain.Shared.Configuration;
+using PayGate.Infrastructure.Persistence;
 
-namespace ExampleProject.Infrastructure.Shared.UnitOfWork;
+namespace PayGate.Infrastructure.Shared.UnitOfWork;
 
 public class EntityFrameworkUnitOfWork : IUnitOfWork
 {

@@ -1,6 +1,6 @@
-using ExampleProject.Domain.Common;
+using PayGate.Domain.Common;
 
-namespace ExampleProject.Domain.Shared.Configuration;
+namespace PayGate.Domain.Shared.Configuration;
 
 public interface IDomainEventPublisher
 {

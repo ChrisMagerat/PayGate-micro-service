@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 
-namespace ExampleProject.Application.Common.Exceptions;
+namespace PayGate.Application.Common.Exceptions;
 
 public class IdentityException : Exception
 {

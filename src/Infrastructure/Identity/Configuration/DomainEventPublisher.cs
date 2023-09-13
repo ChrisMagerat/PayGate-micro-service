@@ -1,7 +1,7 @@
-using ExampleProject.Domain.Common;
-using ExampleProject.Domain.Shared.Configuration;
+using PayGate.Domain.Common;
+using PayGate.Domain.Shared.Configuration;
 
-namespace ExampleProject.Infrastructure.Identity.Configuration;
+namespace PayGate.Infrastructure.Identity.Configuration;
 
 public class DomainEventPublisher : IDomainEventPublisher
 {

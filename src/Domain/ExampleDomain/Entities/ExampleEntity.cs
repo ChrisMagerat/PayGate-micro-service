@@ -1,8 +1,8 @@
-using ExampleProject.Domain.Common;
-using ExampleProject.Domain.ExampleDomain.Enums;
-using ExampleProject.Domain.ValueObjects;
+using PayGate.Domain.Common;
+using PayGate.Domain.ExampleDomain.Enums;
+using PayGate.Domain.ValueObjects;
 
-namespace ExampleProject.Domain.ExampleDomain.Entities;
+namespace PayGate.Domain.ExampleDomain.Entities;
 
 public class ExampleEntity : AuditableEntity
 {

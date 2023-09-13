@@ -1,7 +1,7 @@
-using ExampleProject.Domain.Common;
 using Microsoft.AspNetCore.Mvc;
+using PayGate.Domain.Common;
 
-namespace ExampleProject.API.Controllers.ExampleDomain.Contracts;
+namespace PayGate.API.Controllers.ExampleDomain.Contracts;
 
 public class GetExampleEntityFilesContract
 {

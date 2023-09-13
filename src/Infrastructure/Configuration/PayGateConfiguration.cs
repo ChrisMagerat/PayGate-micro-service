@@ -1,4 +1,4 @@
-namespace ExampleProject.Infrastructure.Configuration;
+namespace PayGate.Infrastructure.Configuration;
 
 public class PayGateConfiguration
 {

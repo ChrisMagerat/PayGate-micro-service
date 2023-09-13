@@ -1,7 +1,7 @@
 using System.Runtime.Serialization;
-using ExampleProject.Domain.Common;
+using PayGate.Domain.Common;
 
-namespace ExampleProject.Domain.Shared.DomainEvents;
+namespace PayGate.Domain.Shared.DomainEvents;
 
 [DataContract]
 public class PasswordResetRequestedDomainEvent : DomainEvent

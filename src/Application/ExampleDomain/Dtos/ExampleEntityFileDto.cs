@@ -1,6 +1,6 @@
-using ExampleProject.Domain.ValueObjects;
+using PayGate.Domain.ValueObjects;
 
-namespace ExampleProject.Application.ExampleDomain.Dtos;
+namespace PayGate.Application.ExampleDomain.Dtos;
 
 public class ExampleEntityFileDto
 {

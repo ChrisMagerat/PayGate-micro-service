@@ -1,11 +1,10 @@
-using ExampleProject.Application.Shared.Contracts.Mediator;
-using ExampleProject.Application.Shared.Contracts.Mediator.Implementations;
-using ExampleProject.Domain.Identity.IdentityUser;
-using ExampleProject.Domain.Identity.RepositoryInterfaces;
-using ExampleProject.Domain.Shared.DomainEvents;
 using Microsoft.Extensions.Logging;
+using PayGate.Application.Shared.Contracts.Mediator;
+using PayGate.Application.Shared.Contracts.Mediator.Implementations;
+using PayGate.Domain.Identity.IdentityUser;
+using PayGate.Domain.Identity.RepositoryInterfaces;
 
-namespace ExampleProject.Application.Identity.Commands;
+namespace PayGate.Application.Identity.Commands;
 
 public class SignUpUserCommand : CommandBase
 {

@@ -1,10 +1,10 @@
-using ExampleProject.API.Controllers.Identity.Contracts;
-using ExampleProject.API.Controllers.Shared;
-using ExampleProject.Application.Identity.Commands;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using PayGate.API.Controllers.Identity.Contracts;
+using PayGate.API.Controllers.Shared;
+using PayGate.Application.Identity.Commands;
 
-namespace ExampleProject.API.Controllers.Identity;
+namespace PayGate.API.Controllers.Identity;
 
 public class AccountsController : ApiBaseController
 {

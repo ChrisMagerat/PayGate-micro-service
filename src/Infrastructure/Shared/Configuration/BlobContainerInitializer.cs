@@ -1,7 +1,7 @@
 using Azure.Storage.Blobs;
-using ExampleProject.Domain.Common;
+using PayGate.Domain.Common;
 
-namespace ExampleProject.Infrastructure.Shared.Configuration;
+namespace PayGate.Infrastructure.Shared.Configuration;
 
 public class BlobContainerInitializer
 {

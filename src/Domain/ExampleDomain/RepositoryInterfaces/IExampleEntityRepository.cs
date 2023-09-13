@@ -1,8 +1,8 @@
 using System.Linq.Expressions;
-using ExampleProject.Domain.Common;
-using ExampleProject.Domain.ExampleDomain.Entities;
+using PayGate.Domain.Common;
+using PayGate.Domain.ExampleDomain.Entities;
 
-namespace ExampleProject.Domain.ExampleDomain.RepositoryInterfaces;
+namespace PayGate.Domain.ExampleDomain.RepositoryInterfaces;
 
 public interface IExampleEntityRepository : IRepository
 {

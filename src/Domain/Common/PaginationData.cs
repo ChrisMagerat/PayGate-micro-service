@@ -1,4 +1,4 @@
-namespace ExampleProject.Domain.Common;
+namespace PayGate.Domain.Common;
 
 public class PaginationData<TEntity>
 {

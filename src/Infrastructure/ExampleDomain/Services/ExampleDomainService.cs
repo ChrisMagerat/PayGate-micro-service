@@ -1,13 +1,13 @@
-using ExampleProject.Application.Common;
-using ExampleProject.Application.ExampleDomain.Dtos;
-using ExampleProject.Application.ExampleDomain.Queries;
-using ExampleProject.Application.ExampleDomain.Requests;
-using ExampleProject.Application.ExampleDomain.Services;
-using ExampleProject.Domain.ExampleDomain.Entities;
-using ExampleProject.Domain.ExampleDomain.RepositoryInterfaces;
+using PayGate.Application.Common;
+using PayGate.Application.ExampleDomain.Dtos;
+using PayGate.Application.ExampleDomain.Queries;
+using PayGate.Application.ExampleDomain.Requests;
+using PayGate.Application.ExampleDomain.Services;
+using PayGate.Domain.ExampleDomain.Entities;
+using PayGate.Domain.ExampleDomain.RepositoryInterfaces;
 using SendGrid.Helpers.Errors.Model;
 
-namespace ExampleProject.Infrastructure.ExampleDomain.Services;
+namespace PayGate.Infrastructure.ExampleDomain.Services;
 
 public class ExampleDomainService : IExampleDomainService
 {

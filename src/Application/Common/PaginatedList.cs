@@ -1,4 +1,4 @@
-namespace ExampleProject.Application.Common;
+namespace PayGate.Application.Common;
 
 public class PaginatedList<T>
 {

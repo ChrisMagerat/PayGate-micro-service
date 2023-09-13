@@ -1,6 +1,6 @@
 using Ardalis.SmartEnum;
 
-namespace ExampleProject.Domain.Common;
+namespace PayGate.Domain.Common;
 
 public class BlobStorageTypes: SmartEnum<BlobStorageTypes>
 {

@@ -1,4 +1,4 @@
-namespace ExampleProject.Infrastructure.Common;
+namespace PayGate.Infrastructure.Common;
 
 public class AzureConfiguration
 {

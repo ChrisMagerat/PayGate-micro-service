@@ -1,6 +1,6 @@
 using IdentityServer4.Models;
 
-namespace ExampleProject.Infrastructure.Configuration;
+namespace PayGate.Infrastructure.Configuration;
 
 public static class IdentityServerConfiguration
 {

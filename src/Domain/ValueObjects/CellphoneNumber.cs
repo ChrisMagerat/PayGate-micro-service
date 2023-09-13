@@ -1,6 +1,6 @@
-using ExampleProject.Domain.Common;
+using PayGate.Domain.Common;
 
-namespace ExampleProject.Domain.ValueObjects;
+namespace PayGate.Domain.ValueObjects;
 
 public class CellphoneNumber : ValueObject
 {

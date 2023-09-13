@@ -1,6 +1,6 @@
 using Autofac;
 
-namespace ExampleProject.Infrastructure.Configuration;
+namespace PayGate.Infrastructure.Configuration;
 
 internal static class ApplicationCompositionRoot
 {

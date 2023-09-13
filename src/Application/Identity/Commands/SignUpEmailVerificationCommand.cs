@@ -1,16 +1,15 @@
 using System.Text;
 using System.Web;
-using ExampleProject.Application.Identity.Configuration;
-using ExampleProject.Application.Shared.Contracts.Mediator;
-using ExampleProject.Application.Shared.Contracts.Mediator.Implementations;
-using ExampleProject.Application.Shared.Services;
-using ExampleProject.Domain.Identity.IdentityUser;
-using ExampleProject.Domain.Identity.RepositoryInterfaces;
-using ExampleProject.Infrastructure.Configuration.Common;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
+using PayGate.Application.Identity.Configuration;
+using PayGate.Application.Shared.Contracts.Mediator;
+using PayGate.Application.Shared.Contracts.Mediator.Implementations;
+using PayGate.Application.Shared.Services;
+using PayGate.Domain.Identity.IdentityUser;
+using PayGate.Domain.Identity.RepositoryInterfaces;
 
-namespace ExampleProject.Application.Identity.Commands;
+namespace PayGate.Application.Identity.Commands;
 
 public class SignUpEmailVerificationCommand : CommandBase
 {

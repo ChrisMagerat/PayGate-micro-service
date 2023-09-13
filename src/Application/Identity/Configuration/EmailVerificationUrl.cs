@@ -1,4 +1,4 @@
-namespace ExampleProject.Application.Identity.Configuration;
+namespace PayGate.Application.Identity.Configuration;
 
 public class EmailVerificationUrl
 {

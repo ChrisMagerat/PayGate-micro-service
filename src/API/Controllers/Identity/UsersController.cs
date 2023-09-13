@@ -1,9 +1,9 @@
-using ExampleProject.API.Controllers.Shared;
-using ExampleProject.Application.Identity.Queries;
-using ExampleProject.Domain.Identity.IdentityUser;
 using Microsoft.AspNetCore.Mvc;
+using PayGate.API.Controllers.Shared;
+using PayGate.Application.Identity.Queries;
+using PayGate.Domain.Identity.IdentityUser;
 
-namespace ExampleProject.API.Controllers.Identity;
+namespace PayGate.API.Controllers.Identity;
 
 public class UsersController : ApiBaseController
 {

@@ -1,6 +1,6 @@
-using ExampleProject.Domain.Common;
+using PayGate.Domain.Common;
 
-namespace ExampleProject.Application.Shared.Services;
+namespace PayGate.Application.Shared.Services;
 
 public interface IBlobService
 {

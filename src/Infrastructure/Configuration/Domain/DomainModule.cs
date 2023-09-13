@@ -1,12 +1,11 @@
-using System.Reflection;
 using Autofac;
-using ExampleProject.Domain.Services.PayGateService;
-using ExampleProject.Infrastructure.Configuration.Quartz;
-using ExampleProject.Infrastructure.Domain.Services;
-using ExampleProject.Infrastructure.Persistence;
+using PayGate.Domain.Services.PayGateService;
+using PayGate.Infrastructure.Configuration.Quartz;
+using PayGate.Infrastructure.Domain.Services;
+using PayGate.Infrastructure.Persistence;
 using Module = Autofac.Module;
 
-namespace ExampleProject.Infrastructure.Configuration.Domain;
+namespace PayGate.Infrastructure.Configuration.Domain;
 
 internal class DomainModule : Module
 {
