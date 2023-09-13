@@ -1,0 +1,12 @@
+/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/bin/Debug/net6.0/Domain.deps.json
+/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/bin/Debug/net6.0/Domain.dll
+/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/bin/Debug/net6.0/Domain.pdb
+/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/obj/Debug/net6.0/Domain.csproj.AssemblyReference.cache
+/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/obj/Debug/net6.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/obj/Debug/net6.0/Domain.AssemblyInfoInputs.cache
+/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/obj/Debug/net6.0/Domain.AssemblyInfo.cs
+/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/obj/Debug/net6.0/Domain.csproj.CoreCompileInputs.cache
+/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/obj/Debug/net6.0/Domain.dll
+/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/obj/Debug/net6.0/refint/Domain.dll
+/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/obj/Debug/net6.0/Domain.pdb
+/Users/chrismagerat/Desktop/micro-serivce/PayGate/src/Domain/obj/Debug/net6.0/ref/Domain.dll
