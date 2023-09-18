@@ -6,7 +6,7 @@ namespace PayGateMicroService.API.Controllers.PayGate;
 
 public class PayGateController : ApiBaseController
 {
-    [HttpPost("initial-pay")]
+    [HttpPost("pay-gate-pay")]
     [ProducesResponseType(statusCode: StatusCodes.Status200OK)]
     public async Task<ActionResult> InitialPay([FromQuery] PayGateCommand payGateCommand, CancellationToken cancellationToken)
     {
