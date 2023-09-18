@@ -1,12 +1,13 @@
 using System.Linq.Expressions;
+using PayGateMicroService.Domain.Common;
+using PayGateMicroService.Domain.ExampleDomain.Entities;
+using PayGateMicroService.Domain.ExampleDomain.RepositoryInterfaces;
+using PayGateMicroService.Infrastructure.Common;
+using PayGateMicroService.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
-using PayGate.Domain.Common;
-using PayGate.Domain.ExampleDomain.Entities;
-using PayGate.Domain.ExampleDomain.RepositoryInterfaces;
-using PayGate.Infrastructure.Common;
-using PayGate.Infrastructure.Persistence;
+using Polly;
 
-namespace PayGate.Infrastructure.ExampleDomain.Repositories;
+namespace PayGateMicroService.Infrastructure.ExampleDomain.Repositories;
 
 public class ExampleEntityFilesRepository : Repository, IExampleEntityFilesRepository
 {

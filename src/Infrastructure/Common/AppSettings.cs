@@ -1,6 +1,6 @@
-using PayGate.Infrastructure.Configuration;
+using PayGateMicroService.Infrastructure.Configuration;
 
-namespace PayGate.Infrastructure.Common;
+namespace PayGateMicroService.Infrastructure.Common;
 
 public class AppSettings
 {

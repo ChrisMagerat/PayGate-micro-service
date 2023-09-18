@@ -1,10 +1,10 @@
+using PayGateMicroService.Application.ExampleDomain.Requests;
+using PayGateMicroService.Application.ExampleDomain.Services;
+using PayGateMicroService.Application.Shared.Contracts.Mediator;
+using PayGateMicroService.Application.Shared.Contracts.Mediator.Implementations;
 using Microsoft.Extensions.Logging;
-using PayGate.Application.ExampleDomain.Requests;
-using PayGate.Application.ExampleDomain.Services;
-using PayGate.Application.Shared.Contracts.Mediator;
-using PayGate.Application.Shared.Contracts.Mediator.Implementations;
 
-namespace PayGate.Application.ExampleDomain.Commands;
+namespace PayGateMicroService.Application.ExampleDomain.Commands;
 
 public class UpdateExampleEntityCommand : CommandBase
 {

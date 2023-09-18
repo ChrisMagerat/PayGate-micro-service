@@ -1,7 +1,7 @@
-using PayGate.Domain.Common;
-using PayGate.Domain.Shared.Configuration;
+using PayGateMicroService.Domain.Common;
+using PayGateMicroService.Domain.Shared.Configuration;
 
-namespace PayGate.Infrastructure.Identity.Configuration;
+namespace PayGateMicroService.Infrastructure.Identity.Configuration;
 
 public class DomainEventPublisher : IDomainEventPublisher
 {

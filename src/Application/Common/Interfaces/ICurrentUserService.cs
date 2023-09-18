@@ -1,4 +1,4 @@
-namespace PayGate.Application.Common.Interfaces;
+namespace PayGateMicroService.Application.Common.Interfaces;
 
 public interface ICurrentUserService
 {

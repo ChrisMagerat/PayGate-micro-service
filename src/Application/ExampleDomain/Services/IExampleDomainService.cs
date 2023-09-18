@@ -1,10 +1,10 @@
-using PayGate.Application.Common;
-using PayGate.Application.ExampleDomain.Dtos;
-using PayGate.Application.ExampleDomain.Queries;
-using PayGate.Application.ExampleDomain.Requests;
-using PayGate.Domain.ExampleDomain.Entities;
+using PayGateMicroService.Application.Common;
+using PayGateMicroService.Application.ExampleDomain.Dtos;
+using PayGateMicroService.Application.ExampleDomain.Queries;
+using PayGateMicroService.Application.ExampleDomain.Requests;
+using PayGateMicroService.Domain.ExampleDomain.Entities;
 
-namespace PayGate.Application.ExampleDomain.Services;
+namespace PayGateMicroService.Application.ExampleDomain.Services;
 
 public interface IExampleDomainService
 {

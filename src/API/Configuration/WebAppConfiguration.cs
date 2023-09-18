@@ -1,7 +1,7 @@
+using PayGateMicroService.Infrastructure.Configuration;
 using NSwag.AspNetCore;
-using PayGate.Infrastructure.Configuration;
 
-namespace PayGate.API.Configuration;
+namespace PayGateMicroService.API.Configuration;
 
 public static class WebAppConfiguration
 {

@@ -1,10 +1,10 @@
+using PayGateMicroService.API.Controllers.Identity.Contracts;
+using PayGateMicroService.API.Controllers.Shared;
+using PayGateMicroService.Application.Identity.Commands;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using PayGate.API.Controllers.Identity.Contracts;
-using PayGate.API.Controllers.Shared;
-using PayGate.Application.Identity.Commands;
 
-namespace PayGate.API.Controllers.Identity;
+namespace PayGateMicroService.API.Controllers.Identity;
 
 public class AccountsController : ApiBaseController
 {

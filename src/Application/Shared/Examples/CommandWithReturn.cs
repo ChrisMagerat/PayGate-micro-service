@@ -1,10 +1,11 @@
+using PayGateMicroService.Application.Shared.Contracts.Mediator;
+using PayGateMicroService.Application.Shared.Contracts.Mediator.Implementations;
+using PayGateMicroService.Application.Shared.Contracts.Mediator.Interfaces;
+using PayGateMicroService.Application.Shared.Contracts.Validator;
 using FluentValidation;
 using Microsoft.Extensions.Logging;
-using PayGate.Application.Shared.Contracts.Mediator;
-using PayGate.Application.Shared.Contracts.Mediator.Implementations;
-using PayGate.Application.Shared.Contracts.Validator;
 
-namespace PayGate.Application.Shared.Examples;
+namespace PayGateMicroService.Application.Shared.Examples;
 
 public class CommandWithReturn: CommandBase<CommandWithReturnResult>
 {

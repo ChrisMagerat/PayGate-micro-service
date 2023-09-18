@@ -1,4 +1,4 @@
-namespace PayGate.Application.Shared.Services;
+namespace PayGateMicroService.Application.Shared.Services;
 
 public interface ILinkGeneratorService
 {

@@ -1,7 +1,7 @@
+using PayGateMicroService.Application.Shared.Services;
 using Flurl;
-using PayGate.Application.Shared.Services;
 
-namespace PayGate.Infrastructure.Shared.Services;
+namespace PayGateMicroService.Infrastructure.Shared.Services;
 
 public class LinkGeneratorService: ILinkGeneratorService
 {

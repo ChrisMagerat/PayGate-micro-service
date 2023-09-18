@@ -2,10 +2,10 @@
 /shelf/
 /workspace.xml
 # Rider ignored files
-/modules.xml
-/.idea.PayGateMicroService.iml
 /contentModel.xml
+/modules.xml
 /projectSettingsUpdater.xml
+/.idea.PayGateMicroService.iml
 # Editor-based HTTP Client requests
 /httpRequests/
 # Datasource local storage ignored files

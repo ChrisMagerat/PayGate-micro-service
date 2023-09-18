@@ -1,6 +1,6 @@
-using PayGate.Domain.Shared;
+using PayGateMicroService.Domain.Shared;
 
-namespace PayGate.API.Controllers.Shared;
+namespace PayGateMicroService.API.Controllers.Shared;
 
 public static class FileExtensions
 {

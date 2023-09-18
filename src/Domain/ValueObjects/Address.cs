@@ -1,6 +1,6 @@
-using PayGate.Domain.Common;
+using PayGateMicroService.Domain.Common;
 
-namespace PayGate.Domain.ValueObjects;
+namespace PayGateMicroService.Domain.ValueObjects;
 
 public class Address : ValueObject
 {

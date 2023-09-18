@@ -1,9 +1,10 @@
 using System.ComponentModel.DataAnnotations.Schema;
+using PayGateMicroService.Domain.Common;
 using Microsoft.AspNetCore.Identity;
-using PayGate.Domain.Common;
-using PayGate.Domain.Shared.DomainEvents;
+using System.ComponentModel.DataAnnotations.Schema;
+using PayGateMicroService.Domain.Shared.DomainEvents;
 
-namespace PayGate.Domain.Identity.IdentityUser;
+namespace PayGateMicroService.Domain.Identity.IdentityUser;
 
 public class User: IdentityUser<Guid>, IAuditableEntity
 {

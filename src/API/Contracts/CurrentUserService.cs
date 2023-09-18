@@ -1,7 +1,7 @@
 using System.Security.Claims;
-using PayGate.Application.Common.Interfaces;
+using PayGateMicroService.Application.Common.Interfaces;
 
-namespace PayGate.API.Contracts;
+namespace PayGateMicroService.API.Contracts;
 
 public class CurrentUserService: ICurrentUserService
 {

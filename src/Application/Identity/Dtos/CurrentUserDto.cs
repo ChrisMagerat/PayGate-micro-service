@@ -1,6 +1,6 @@
-using PayGate.Domain.ValueObjects;
+using PayGateMicroService.Domain.ValueObjects;
 
-namespace PayGate.Application.Identity.Dtos;
+namespace PayGateMicroService.Application.Identity.Dtos;
 
 public class CurrentUserDto
 {

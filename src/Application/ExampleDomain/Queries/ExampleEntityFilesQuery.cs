@@ -1,12 +1,14 @@
+using PayGateMicroService.Application.Common;
+using PayGateMicroService.Application.ExampleDomain.Dtos;
+using PayGateMicroService.Application.Shared.Contracts.Mediator;
+using PayGateMicroService.Application.Shared.Contracts.Mediator.Implementations;
+using PayGateMicroService.Application.Shared.Services;
+using PayGateMicroService.Domain.Common;
+using PayGateMicroService.Domain.ExampleDomain.Entities;
+using PayGateMicroService.Domain.ExampleDomain.RepositoryInterfaces;
 using Microsoft.Extensions.Logging;
-using PayGate.Application.Common;
-using PayGate.Application.ExampleDomain.Dtos;
-using PayGate.Application.Shared.Contracts.Mediator;
-using PayGate.Application.Shared.Contracts.Mediator.Implementations;
-using PayGate.Domain.Common;
-using PayGate.Domain.ExampleDomain.RepositoryInterfaces;
 
-namespace PayGate.Application.ExampleDomain.Queries;
+namespace PayGateMicroService.Application.ExampleDomain.Queries;
 
 public class ExampleEntityFilesQuery : QueryBase<PaginatedList<ExampleEntityFileDto>>
 {

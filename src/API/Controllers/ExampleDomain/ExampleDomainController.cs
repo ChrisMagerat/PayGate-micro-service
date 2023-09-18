@@ -1,14 +1,14 @@
+using PayGateMicroService.API.Controllers.ExampleDomain.Contracts;
+using PayGateMicroService.API.Controllers.Shared;
+using PayGateMicroService.Application.Common;
+using PayGateMicroService.Application.ExampleDomain.Commands;
+using PayGateMicroService.Application.ExampleDomain.Dtos;
+using PayGateMicroService.Application.ExampleDomain.Queries;
+using PayGateMicroService.Application.Shared.Examples;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using PayGate.API.Controllers.ExampleDomain.Contracts;
-using PayGate.API.Controllers.Shared;
-using PayGate.Application.Common;
-using PayGate.Application.ExampleDomain.Commands;
-using PayGate.Application.ExampleDomain.Dtos;
-using PayGate.Application.ExampleDomain.Queries;
-using PayGate.Application.Shared.Examples;
 
-namespace PayGate.API.Controllers.ExampleDomain;
+namespace PayGateMicroService.API.Controllers.ExampleDomain;
 
 [AllowAnonymous]
 public class ExampleDomainController : ApiBaseController

@@ -1,10 +1,10 @@
+using PayGateMicroService.Application.ExampleDomain.Dtos;
+using PayGateMicroService.Application.ExampleDomain.Services;
+using PayGateMicroService.Application.Shared.Contracts.Mediator;
+using PayGateMicroService.Application.Shared.Contracts.Mediator.Implementations;
 using Microsoft.Extensions.Logging;
-using PayGate.Application.ExampleDomain.Dtos;
-using PayGate.Application.ExampleDomain.Services;
-using PayGate.Application.Shared.Contracts.Mediator;
-using PayGate.Application.Shared.Contracts.Mediator.Implementations;
 
-namespace PayGate.Application.ExampleDomain.Queries;
+namespace PayGateMicroService.Application.ExampleDomain.Queries;
 
 public class ExampleEntityQuery : QueryBase<ExampleEntityDto>
 {

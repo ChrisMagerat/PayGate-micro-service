@@ -1,7 +1,7 @@
+using PayGateMicroService.Application.Identity.Commands;
 using MediatR;
-using PayGate.Application.Identity.Commands;
 
-namespace PayGate.Application.Identity.DomainEventConsumers;
+namespace PayGateMicroService.Application.Identity.DomainEventConsumers;
 
 public class UserSignedUpDomainEventConsumer
 {

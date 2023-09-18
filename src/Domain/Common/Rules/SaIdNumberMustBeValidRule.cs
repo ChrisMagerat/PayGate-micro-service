@@ -1,6 +1,6 @@
 using System.Globalization;
 
-namespace PayGate.Domain.Common.Rules;
+namespace PayGateMicroService.Domain.Common.Rules;
 
 public class SaIdNumberMustBeValidRule : IBusinessRule
 {

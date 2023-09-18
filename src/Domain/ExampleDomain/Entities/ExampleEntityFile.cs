@@ -1,8 +1,8 @@
-using PayGate.Domain.Common;
-using PayGate.Domain.ExampleDomain.Enums;
-using PayGate.Domain.ValueObjects;
+using PayGateMicroService.Domain.Common;
+using PayGateMicroService.Domain.ExampleDomain.Enums;
+using PayGateMicroService.Domain.ValueObjects;
 
-namespace PayGate.Domain.ExampleDomain.Entities;
+namespace PayGateMicroService.Domain.ExampleDomain.Entities;
 
 public class ExampleEntityFile : AuditableEntity
 {

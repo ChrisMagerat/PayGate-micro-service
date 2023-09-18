@@ -1,4 +1,4 @@
-namespace PayGate.Application.ExampleDomain.Requests;
+namespace PayGateMicroService.Application.ExampleDomain.Requests;
 
 public class AddExampleEntityRequest
 {

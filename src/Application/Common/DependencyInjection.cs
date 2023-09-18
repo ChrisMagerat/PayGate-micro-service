@@ -1,11 +1,12 @@
+using PayGateMicroService.Application.Shared.Contracts.Behaviors;
+using PayGateMicroService.Application.Shared.Contracts.Mediator;
+using PayGateMicroService.Application.Shared.Contracts.Validator;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
-using PayGate.Application.Shared.Contracts.Behaviors;
-using PayGate.Application.Shared.Contracts.Mediator;
-using PayGate.Application.Shared.Contracts.Validator;
 
-namespace PayGate.Application.Common;
+
+namespace PayGateMicroService.Application.Common;
 
 public static class DependencyInjection
 {

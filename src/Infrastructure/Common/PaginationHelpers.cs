@@ -1,7 +1,7 @@
+using PayGateMicroService.Domain.Common;
 using Microsoft.EntityFrameworkCore;
-using PayGate.Domain.Common;
 
-namespace PayGate.Infrastructure.Common;
+namespace PayGateMicroService.Infrastructure.Common;
 
 public static class PaginationHelpers
 {

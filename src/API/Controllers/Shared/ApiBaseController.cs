@@ -2,7 +2,7 @@ using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace PayGate.API.Controllers.Shared;
+namespace PayGateMicroService.API.Controllers.Shared;
 
 [Authorize]
 [ApiController]

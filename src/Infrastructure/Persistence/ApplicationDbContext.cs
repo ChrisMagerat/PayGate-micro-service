@@ -1,18 +1,18 @@
 using System.Reflection;
+using PayGateMicroService.Application.Common.Interfaces;
+using PayGateMicroService.Domain.Common;
+using PayGateMicroService.Domain.Identity.IdentityUser;
 using IdentityServer4.EntityFramework.Entities;
 using IdentityServer4.EntityFramework.Extensions;
 using IdentityServer4.EntityFramework.Interfaces;
 using IdentityServer4.EntityFramework.Options;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using PayGateMicroService.Domain.ExampleDomain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
-using PayGate.Application.Common.Interfaces;
-using PayGate.Domain.Common;
-using PayGate.Domain.ExampleDomain.Entities;
-using PayGate.Domain.Identity.IdentityUser;
 
-namespace PayGate.Infrastructure.Persistence;
+namespace PayGateMicroService.Infrastructure.Persistence;
 
 public class ApplicationDbContext: IdentityDbContext<User, IdentityRole<Guid>, Guid, IdentityUserClaim<Guid>, IdentityUserRole<Guid>, IdentityUserLogin<Guid>, IdentityRoleClaim<Guid>, IdentityUserToken<Guid>>, IPersistedGrantDbContext
 {

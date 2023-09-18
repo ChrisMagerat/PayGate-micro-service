@@ -1,21 +1,22 @@
 using System.Reflection;
 using Azure.Storage.Blobs;
+using PayGateMicroService.Application.Common.Interfaces;
+using PayGateMicroService.Application.Identity.Configuration;
+using PayGateMicroService.Domain.Common;
+using PayGateMicroService.Domain.Identity.IdentityUser;
+using PayGateMicroService.Domain.Shared.Configuration;
+using PayGateMicroService.Infrastructure.Configuration;
+using PayGateMicroService.Infrastructure.Configuration.Common;
+using PayGateMicroService.Infrastructure.Persistence;
+using PayGateMicroService.Infrastructure.Shared.UnitOfWork;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using PayGate.Application.Common.Interfaces;
-using PayGate.Application.Identity.Configuration;
-using PayGate.Domain.Common;
-using PayGate.Domain.Identity.IdentityUser;
-using PayGate.Domain.Shared.Configuration;
-using PayGate.Infrastructure.Configuration;
-using PayGate.Infrastructure.Persistence;
-using PayGate.Infrastructure.Shared.UnitOfWork;
 
-namespace PayGate.Infrastructure.Common;
+namespace PayGateMicroService.Infrastructure.Common;
 
 public static class DependencyInjection
 {

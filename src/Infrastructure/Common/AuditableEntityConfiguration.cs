@@ -1,8 +1,8 @@
+using PayGateMicroService.Domain.Common;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using PayGate.Domain.Common;
 
-namespace PayGate.Infrastructure.Common;
+namespace PayGateMicroService.Infrastructure.Common;
 
 public abstract class AuditableEntityConfiguration<TEntity> : IEntityTypeConfiguration<TEntity>
     where TEntity : AuditableEntity

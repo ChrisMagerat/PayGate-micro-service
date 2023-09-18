@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
-using PayGate.Domain.Common.Rules;
+using PayGateMicroService.Domain.Common.Rules;
 
-namespace PayGate.Domain.Common;
+namespace PayGateMicroService.Domain.Common;
 
 public abstract class AuditableEntity : IAuditableEntity
 {

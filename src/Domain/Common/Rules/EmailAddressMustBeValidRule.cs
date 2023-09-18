@@ -1,6 +1,6 @@
 using System.Net.Mail;
 
-namespace PayGate.Domain.Common.Rules;
+namespace PayGateMicroService.Domain.Common.Rules;
 
 public class EmailAddressMustBeValidRule : IBusinessRule
 {

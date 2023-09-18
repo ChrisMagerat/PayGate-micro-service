@@ -1,8 +1,8 @@
-using PayGate.Domain.Common;
-using PayGate.Domain.Shared.Configuration;
-using PayGate.Infrastructure.Persistence;
+using PayGateMicroService.Domain.Common;
+using PayGateMicroService.Domain.Shared.Configuration;
+using PayGateMicroService.Infrastructure.Persistence;
 
-namespace PayGate.Infrastructure.Shared.UnitOfWork;
+namespace PayGateMicroService.Infrastructure.Shared.UnitOfWork;
 
 public class EntityFrameworkUnitOfWork : IUnitOfWork
 {

@@ -1,4 +1,4 @@
-namespace PayGate.Application.ExampleDomain.Dtos;
+namespace PayGateMicroService.Application.ExampleDomain.Dtos;
 
 public class ExampleEntityDto
 {

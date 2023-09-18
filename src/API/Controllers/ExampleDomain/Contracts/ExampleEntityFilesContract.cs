@@ -1,7 +1,7 @@
+using PayGateMicroService.Domain.ExampleDomain.Enums;
 using Microsoft.AspNetCore.Mvc;
-using PayGate.Domain.ExampleDomain.Enums;
 
-namespace PayGate.API.Controllers.ExampleDomain.Contracts;
+namespace PayGateMicroService.API.Controllers.ExampleDomain.Contracts;
 
 public class ExampleEntityFilesContract
 {

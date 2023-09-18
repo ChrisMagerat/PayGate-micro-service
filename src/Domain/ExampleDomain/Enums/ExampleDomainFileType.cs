@@ -1,4 +1,4 @@
-namespace PayGate.Domain.ExampleDomain.Enums;
+namespace PayGateMicroService.Domain.ExampleDomain.Enums;
 
 public enum ExampleDomainFileType
 {

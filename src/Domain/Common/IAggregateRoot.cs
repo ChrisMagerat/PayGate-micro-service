@@ -1,4 +1,4 @@
-namespace PayGate.Domain.Common;
+namespace PayGateMicroService.Domain.Common;
 
 public interface IAggregateRoot
 {

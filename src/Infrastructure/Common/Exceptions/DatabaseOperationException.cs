@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace PayGate.Infrastructure.Common.Exceptions;
+namespace PayGateMicroService.Infrastructure.Common.Exceptions;
 
 [Serializable]
 public class DatabaseOperationException: Exception

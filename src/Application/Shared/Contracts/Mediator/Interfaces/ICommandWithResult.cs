@@ -1,6 +1,6 @@
 using MediatR;
 
-namespace PayGate.Application.Shared.Contracts.Mediator.Interfaces;
+namespace PayGateMicroService.Application.Shared.Contracts.Mediator.Interfaces;
 
 public interface ICommandWithResult<out TResult> : IRequest<TResult>
 {

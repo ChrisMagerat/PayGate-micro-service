@@ -1,7 +1,7 @@
 using System.Runtime.Serialization;
-using PayGate.Domain.Common;
+using PayGateMicroService.Domain.Common;
 
-namespace PayGate.Domain.Shared.DomainEvents;
+namespace PayGateMicroService.Domain.Shared.DomainEvents;
 
 [DataContract]
 public class UserSignedUpDomainEvent : DomainEvent

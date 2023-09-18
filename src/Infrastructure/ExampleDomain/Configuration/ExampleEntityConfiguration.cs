@@ -1,9 +1,9 @@
+using PayGateMicroService.Domain.ExampleDomain.Entities;
+using PayGateMicroService.Infrastructure.Common;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using PayGate.Domain.ExampleDomain.Entities;
-using PayGate.Infrastructure.Common;
 
-namespace PayGate.Infrastructure.ExampleDomain.Configuration;
+namespace PayGateMicroService.Infrastructure.ExampleDomain.Configuration;
 
 public class ExampleEntityConfiguration: AuditableEntityConfiguration<ExampleEntity>
 {

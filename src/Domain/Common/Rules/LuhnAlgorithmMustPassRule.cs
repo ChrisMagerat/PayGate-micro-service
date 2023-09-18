@@ -1,4 +1,4 @@
-namespace PayGate.Domain.Common.Rules;
+namespace PayGateMicroService.Domain.Common.Rules;
 
 public class LuhnAlgorithmMustPassRule : IBusinessRule
 {

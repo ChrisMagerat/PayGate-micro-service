@@ -3,7 +3,7 @@ using Flurl.Http.Configuration;
 using Polly;
 using Polly.Contrib.WaitAndRetry;
 
-namespace PayGate.Infrastructure.Shared.Services;
+namespace PayGateMicroService.Infrastructure.Shared.Services;
 
 public class RetryHandler : DelegatingHandler
 {
@@ -26,7 +26,7 @@ public class RetryHandler : DelegatingHandler
 }
 
 
-public class ExampleProjectHttpClientFactory: DefaultHttpClientFactory
+public class PayGateMicroServiceHttpClientFactory: DefaultHttpClientFactory
 {
     public override HttpMessageHandler CreateMessageHandler()
     {

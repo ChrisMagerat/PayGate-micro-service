@@ -1,4 +1,4 @@
-namespace PayGate.Application.Identity.Configuration;
+namespace PayGateMicroService.Application.Identity.Configuration;
 
 public class PasswordResetUrl
 {

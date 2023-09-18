@@ -1,7 +1,7 @@
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace PayGate.Application.Shared.Contracts.Mediator;
+namespace PayGateMicroService.Application.Shared.Contracts.Mediator;
 
 public abstract class BaseAsyncRequestHandler<TRequest> : IRequestHandler<TRequest>
     where TRequest : IRequest

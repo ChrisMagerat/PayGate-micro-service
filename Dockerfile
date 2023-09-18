@@ -1,7 +1,7 @@
 ﻿FROM mcr.microsoft.com/dotnet/sdk:6.0-alpine as build
 
 WORKDIR /app
-COPY "./ExampleProject.sln" "./ExampleProject.sln"
+COPY "./PayGateMicroService.sln" "./PayGateMicroService.sln"
 COPY "./src/Application/Application.csproj" "./src/Application/Application.csproj"
 COPY "./src/Domain/Domain.csproj" "./src/Domain/Domain.csproj"
 COPY "./src/Infrastructure/Infrastructure.csproj" "./src/Infrastructure/Infrastructure.csproj"

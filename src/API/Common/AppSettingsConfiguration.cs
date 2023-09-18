@@ -1,8 +1,8 @@
-using PayGate.Infrastructure.Common;
-using PayGate.Infrastructure.Configuration;
+using PayGateMicroService.Infrastructure.Common;
+using PayGateMicroService.Infrastructure.Configuration;
 using SendGrid.Helpers.Errors.Model;
 
-namespace PayGate.API.Common;
+namespace PayGateMicroService.API.Common;
 
 public static class AppSettingsConfiguration
 {

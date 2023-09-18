@@ -1,9 +1,9 @@
+using PayGateMicroService.Application.Shared.Contracts.Mediator.Interfaces;
+using PayGateMicroService.Domain.Shared.Configuration;
 using MediatR;
-using PayGate.Application.Shared.Contracts.Mediator.Interfaces;
-using PayGate.Domain.Shared.Configuration;
 using Prometheus;
 
-namespace PayGate.Application.Shared.Contracts.Behaviors;
+namespace PayGateMicroService.Application.Shared.Contracts.Behaviors;
 
 public class TransactionBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> 
     where TRequest : notnull

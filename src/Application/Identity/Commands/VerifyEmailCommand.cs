@@ -1,13 +1,13 @@
 using System.Text;
+using PayGateMicroService.Application.Common.Exceptions;
+using PayGateMicroService.Application.Shared.Contracts.Mediator;
+using PayGateMicroService.Application.Shared.Contracts.Mediator.Implementations;
+using PayGateMicroService.Domain.Identity.IdentityUser;
+using PayGateMicroService.Domain.Identity.RepositoryInterfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
-using PayGate.Application.Common.Exceptions;
-using PayGate.Application.Shared.Contracts.Mediator;
-using PayGate.Application.Shared.Contracts.Mediator.Implementations;
-using PayGate.Domain.Identity.IdentityUser;
-using PayGate.Domain.Identity.RepositoryInterfaces;
 
-namespace PayGate.Application.Identity.Commands;
+namespace PayGateMicroService.Application.Identity.Commands;
 
 public class VerifyEmailCommand : CommandBase
 {

@@ -1,11 +1,11 @@
+using PayGateMicroService.Infrastructure.Persistence;
+using PayGateMicroService.Infrastructure.Shared.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using PayGate.Infrastructure.Persistence;
-using PayGate.Infrastructure.Shared.Configuration;
 
-namespace PayGate.Infrastructure.Common;
+namespace PayGateMicroService.Infrastructure.Common;
 
 public static class Middleware
 {

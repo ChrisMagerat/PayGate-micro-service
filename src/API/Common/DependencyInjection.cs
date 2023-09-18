@@ -1,19 +1,19 @@
+using PayGateMicroService.API.Contracts;
+using PayGateMicroService.API.Configuration;
 using Azure.Storage.Blobs;
+using PayGateMicroService.API.Filters;
+using PayGateMicroService.Application.Common.Interfaces;
+using PayGateMicroService.Application.Shared.Services;
+using PayGateMicroService.Infrastructure.Common;
+using PayGateMicroService.Infrastructure.Configuration;
+using PayGateMicroService.Infrastructure.Shared.Services;
 using Flurl.Http;
 using Flurl.Http.Configuration;
 using NSwag;
-using PayGate.API.Configuration;
-using PayGate.API.Contracts;
-using PayGate.API.Filters;
-using PayGate.Application.Common.Interfaces;
-using PayGate.Application.Shared.Services;
-using PayGate.Infrastructure.Common;
-using PayGate.Infrastructure.Configuration;
-using PayGate.Infrastructure.Shared.Configuration;
-using PayGate.Infrastructure.Shared.Services;
 using Serilog;
+using PayGateMicroService.Infrastructure.Shared.Configuration;
 
-namespace PayGate.API.Common;
+namespace PayGateMicroService.API.Common;
 
 public static class DependencyInjection
 {
@@ -91,7 +91,7 @@ public static class DependencyInjection
     public static void Add3rdPartyIntegrations(this IServiceCollection services, ConfigurationManager configuration)
     {
         services.AddSingleton<IFlurlClientFactory, DefaultFlurlClientFactory>();
-        FlurlHttp.Configure(settings => settings.HttpClientFactory = new ExampleProjectHttpClientFactory());
+        FlurlHttp.Configure(settings => settings.HttpClientFactory = new PayGateMicroServiceHttpClientFactory());
         services.AddTransient<ILinkGeneratorService, LinkGeneratorService>();
     }
     

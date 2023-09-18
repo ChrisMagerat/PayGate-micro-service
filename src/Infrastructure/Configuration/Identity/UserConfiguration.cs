@@ -1,8 +1,8 @@
+using PayGateMicroService.Domain.Identity.IdentityUser;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using PayGate.Domain.Identity.IdentityUser;
 
-namespace PayGate.Infrastructure.Configuration.Identity;
+namespace PayGateMicroService.Infrastructure.Configuration.Identity;
 
 public class UserConfiguration : IEntityTypeConfiguration<User>
 {

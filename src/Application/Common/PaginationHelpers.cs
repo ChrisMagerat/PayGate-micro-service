@@ -1,6 +1,6 @@
-using PayGate.Domain.Common;
+using PayGateMicroService.Domain.Common;
 
-namespace PayGate.Application.Common;
+namespace PayGateMicroService.Application.Common;
 
 public static class PaginationHelpers
 {

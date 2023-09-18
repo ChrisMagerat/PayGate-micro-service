@@ -1,12 +1,12 @@
+using PayGateMicroService.Application.Common.Interfaces;
+using PayGateMicroService.Application.Identity.Dtos;
+using PayGateMicroService.Application.Shared.Contracts.Mediator;
+using PayGateMicroService.Application.Shared.Contracts.Mediator.Implementations;
+using PayGateMicroService.Domain.Identity.RepositoryInterfaces;
+using PayGateMicroService.Domain.ValueObjects;
 using Microsoft.Extensions.Logging;
-using PayGate.Application.Common.Interfaces;
-using PayGate.Application.Identity.Dtos;
-using PayGate.Application.Shared.Contracts.Mediator;
-using PayGate.Application.Shared.Contracts.Mediator.Implementations;
-using PayGate.Domain.Identity.RepositoryInterfaces;
-using PayGate.Domain.ValueObjects;
 
-namespace PayGate.Application.Identity.Queries;
+namespace PayGateMicroService.Application.Identity.Queries;
 
 public class CurrentUserQuery : QueryBase<CurrentUserDto>
 {

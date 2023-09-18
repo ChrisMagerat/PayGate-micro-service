@@ -1,9 +1,9 @@
+using PayGateMicroService.API.Controllers.Shared;
+using PayGateMicroService.Application.Identity.Queries;
+using PayGateMicroService.Domain.Identity.IdentityUser;
 using Microsoft.AspNetCore.Mvc;
-using PayGate.API.Controllers.Shared;
-using PayGate.Application.Identity.Queries;
-using PayGate.Domain.Identity.IdentityUser;
 
-namespace PayGate.API.Controllers.Identity;
+namespace PayGateMicroService.API.Controllers.Identity;
 
 public class UsersController : ApiBaseController
 {

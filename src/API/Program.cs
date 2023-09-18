@@ -1,7 +1,8 @@
-using PayGate.API.Common;
-using PayGate.API.Configuration;
-using PayGate.Application.Common;
-using PayGate.Infrastructure.Common;
+using PayGateMicroService.API.Common;
+using PayGateMicroService.API.Configuration;
+using PayGateMicroService.Application.Common;
+using PayGateMicroService.Infrastructure.Common;
+
 using Prometheus;
 
 

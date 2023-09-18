@@ -1,7 +1,7 @@
+using PayGateMicroService.Application.ExampleDomain.Requests;
 using Microsoft.AspNetCore.Mvc;
-using PayGate.Application.ExampleDomain.Requests;
 
-namespace PayGate.API.Controllers.ExampleDomain.Contracts;
+namespace PayGateMicroService.API.Controllers.ExampleDomain.Contracts;
 
 public class AddExampleEntityContract
 {

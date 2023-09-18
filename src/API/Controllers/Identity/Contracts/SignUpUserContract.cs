@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace PayGate.API.Controllers.Identity.Contracts;
+namespace PayGateMicroService.API.Controllers.Identity.Contracts;
 
 public class SignUpUserContract
 {

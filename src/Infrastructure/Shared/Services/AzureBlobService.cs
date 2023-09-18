@@ -1,9 +1,9 @@
 using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
-using PayGate.Application.Shared.Services;
-using PayGate.Domain.Common;
+using PayGateMicroService.Application.Shared.Services;
+using PayGateMicroService.Domain.Common;
 
-namespace PayGate.Infrastructure.Shared.Services;
+namespace PayGateMicroService.Infrastructure.Shared.Services;
 
 public class AzureBlobService: IBlobService
 {

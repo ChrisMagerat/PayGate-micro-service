@@ -1,14 +1,14 @@
+using PayGateMicroService.Application.Shared.Contracts.Mediator;
+using PayGateMicroService.Application.Shared.Contracts.Mediator.Implementations;
+using PayGateMicroService.Application.Shared.Services;
+using PayGateMicroService.Domain.Common;
+using PayGateMicroService.Domain.ExampleDomain.Enums;
+using PayGateMicroService.Domain.ExampleDomain.RepositoryInterfaces;
+using PayGateMicroService.Domain.Shared;
+using PayGateMicroService.Domain.ValueObjects;
 using Microsoft.Extensions.Logging;
-using PayGate.Application.Shared.Contracts.Mediator;
-using PayGate.Application.Shared.Contracts.Mediator.Implementations;
-using PayGate.Application.Shared.Services;
-using PayGate.Domain.Common;
-using PayGate.Domain.ExampleDomain.Enums;
-using PayGate.Domain.ExampleDomain.RepositoryInterfaces;
-using PayGate.Domain.Shared;
-using PayGate.Domain.ValueObjects;
 
-namespace PayGate.Application.ExampleDomain.Commands;
+namespace PayGateMicroService.Application.ExampleDomain.Commands;
 
 public class UploadFileCommand : CommandBase
 {
